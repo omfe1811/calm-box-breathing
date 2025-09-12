@@ -1,0 +1,14 @@
+# Set default behavior to automatically normalize line endings
+* text=auto
+
+# Explicitly declare file types
+*.js     text
+*.jsx    text
+*.ts     text
+*.tsx    text
+*.css    text
+*.html   text
+*.json   text
+*.md     text
+*.yml    text
+*.yaml   text
