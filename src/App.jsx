@@ -5,7 +5,7 @@ import Progress from "./pages/Progress";
 
 function App() {
 	return (
-		<Router>
+		<Router basename='/calm-box-breathing/'>
 			<Nav />
 			<Routes>
 				<Route path='/' element={<Home />} />
