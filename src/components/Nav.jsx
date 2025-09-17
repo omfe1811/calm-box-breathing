@@ -1,15 +1,21 @@
 function Nav() {
 	return (
 		<nav className=''>
-			<h1 className='xl'>Navbar</h1>
+			<h1 className='xl'>Navbar contents</h1>
 			<ul>
-				
-				<h1>Sound</h1>
-				<ul className='block lg:flex'>
-					<ListItem NavLink='/garden'>Your garden</ListItem>
-					<ListItem NavLink='/#'>Sound</ListItem>
-					<ListItem NavLink='/#'>Color</ListItem>
-					<ListItem NavLink='/#'>Timer</ListItem>
+				<ul className=''>
+					<li>
+						<a href='#garden'>Your garden</a>
+					</li>
+					<li>
+						<a href='#garden'>Sound</a>
+					</li>
+					<li>
+						<a href='#garden'>Color</a>
+					</li>
+					<li>
+						<a href='#garden'>Timer</a>
+					</li>
 				</ul>
 			</ul>
 		</nav>
